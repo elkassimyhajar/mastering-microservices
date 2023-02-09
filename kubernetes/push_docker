@@ -1,0 +1,8 @@
+docker tag notification hajarmk/masteringmicroservice:notification
+
+push_image(){
+  CONTAINER=$1
+  docker tag $CONTAINER $REPO:$CONTAINER
+  docker images | grep $CONTAINER
+  docker push $REPO:$CONTAINER
+}

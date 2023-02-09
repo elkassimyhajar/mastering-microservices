@@ -1,0 +1,17 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["gateway", "invoice", "notification", "productorder"],
+    "clusteredDbApps": ["notification"],
+    "directoryPath": "../",
+    "dockerPushCommand": "docker push",
+    "dockerRepositoryName": "masteringmicroservice",
+    "ingressDomain": "",
+    "istio": false,
+    "jwtSecretKey": "NTQ4NWUyYjEwNzAzNDcxMzNiMGUwOTcwZmE3YWMyYmNhYTI2ZDM0YzQ3OGNlYWJhM2I1YzMzZDEzMzFjZmQ5ODc1MmIxMzdmM2E3NTU0MTllYmY4NjQ4NGEyYmEzOTUwMjllNA==",
+    "kubernetesNamespace": "store",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "monitoring": "prometheus",
+    "serviceDiscoveryType": "eureka"
+  }
+}
